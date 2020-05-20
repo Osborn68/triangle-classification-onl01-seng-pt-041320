@@ -8,6 +8,7 @@ def initialize(a,b,c)
   @c = c 
 end 
 
+<<<<<<< HEAD
 def kind 
   validate_triangle
   if a == b && b == c 
@@ -17,6 +18,11 @@ def kind
   else 
     :scalene
   end 
+=======
+
+class TriangleError < StandardError
+
+>>>>>>> 9726263c416d3417a87b553684e7daa862c5db4f
 end
 
 def validate_triangle
